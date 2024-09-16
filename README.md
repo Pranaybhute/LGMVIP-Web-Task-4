@@ -1,21 +1,31 @@
-#Basic Calculator
+# Basic Calculator
 
-This project is a basic calculator built using HTML, CSS, and JavaScript. The calculator performs simple arithmetic operations: addition, subtraction, multiplication, and division.
+This is a basic calculator built using HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, division, and percentage calculation. The calculator features a clean interface and real-time input display, allowing users to see the full expression as they type.
 
-#Features:
+## Features
 
-Interactive interface with buttons for digits and operations.
-Display screen to show user inputs and results.
-Functional buttons for addition (+), subtraction (-), multiplication (×), and division (÷).
-Responsive layout using CSS Grid.
+- Addition (`+`), Subtraction (`-`), Multiplication (`*`), and Division (`/`)
+- Percentage calculation (`%`)
+- Clear (`C`) and Delete (`Del`) functionality
+- Real-time expression display
+- Responsive design with CSS grid system for layout
 
-#Technologies Used:
+## Technologies Used
 
-HTML: Structure of the calculator.
-CSS: Styling and layout using the grid system.
-JavaScript: Logic for handling calculations and user input through event listeners.
-How to Use:
-Enter numbers using the buttons.
-Choose an operation (e.g., +, -, ×, ÷).
-Press the "=" button to see the result.
-Use the "C" button to clear the display.
+- **HTML**: For structuring the calculator interface.
+- **CSS**: To style the calculator and provide layout via the CSS grid.
+- **JavaScript**: To handle the calculator logic, including user input, calculations, and display updates.
+
+## How It Works
+
+1. **User Input**: Numbers and operators are clicked to form an expression. The full expression (like `10+9`) is displayed in real-time.
+2. **Calculate**: When the `=` button is pressed, the calculator evaluates the expression using JavaScript's `eval()` function.
+3. **Percentage**: The `%` button divides the current number by 100.
+4. **Clear**: The `C` button clears the display and resets all values.
+5. **Delete**: The `Del` button removes the last digit of the current number.
+
+## Code Structure
+
+- **HTML**: Basic structure with buttons for numbers, operators, and a display area.
+- **CSS**: Provides styling and layout using CSS Grid.
+- **JavaScript**: Implements the logic for calculations and input handling.
